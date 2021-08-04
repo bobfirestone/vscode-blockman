@@ -135,7 +135,8 @@
                         "Small Galaxy (Gradients)",
                         "Small Galaxy (Solid colors)",
                         "Pale Pink (Gradients)",
-                        "Pale Pink (Solid colors)"
+                        "Pale Pink (Solid colors)",
+                        "Cyclical Smackdown (Solid colors)"
                     ],
                     "description": "This does not change VSCode theme. Choose preset combo of colors. Corresponding colors are overridden by custom colors (if not empty string)",
                     "scope": "window"

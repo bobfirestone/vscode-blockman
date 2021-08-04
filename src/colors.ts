@@ -683,6 +683,33 @@ export const colorCombos: IColorCombo[] = [
 
         borderOfFocusedBlock: "hsl(30, 40%, 50%)",
     },
+
+    {
+        name: "Cyclical Smackdown (Solid colors)",
+
+        onEachDepth: [
+            `hsl(205, 55%, 10%)`,
+
+            `hsl(205, 49%, 18%)`,
+            `hsl(205, 34%, 18%)`,
+            `hsl(205, 30%, 14%)`,
+            `hsl(300, 100%, 25%)`,
+            `hsl(358, 77%, 52%)`,
+
+            `hsl(2, 90%, 38%)`,
+            `hsl(113, 12%, 4%)`,
+            `hsl(3, 88%, 16%)`,
+            `hsl(4, 76%, 15%)`,
+            `hsl(330, 100%, 50%)`,
+        ],
+
+        border: `hsl(206, 30%, 30%)`,
+        borderOfDepth0: `hsla(0, 0%, 100%, 0.25)`,
+
+        focusedBlock: "hsl(231, 15%, 7%)",
+
+        borderOfFocusedBlock: "hsl(30, 40%, 50%)",
+    },
 ];
 
 // hsl(212, 31%, 16%)
