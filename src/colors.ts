@@ -685,26 +685,25 @@ export const colorCombos: IColorCombo[] = [
     },
 
     {
-        name: "Cyclical Smackdown (Solid colors)",
+        name: "Dracula + Cyclical Smackdown (Solid colors)",
 
         onEachDepth: [
-            `hsl(205, 55%, 10%)`,
-
-            `hsl(205, 49%, 18%)`,
-            `hsl(205, 34%, 18%)`,
-            `hsl(205, 30%, 14%)`,
-            `hsl(300, 100%, 25%)`,
-            `hsl(358, 77%, 52%)`,
-
-            `hsl(2, 90%, 38%)`,
-            `hsl(113, 12%, 4%)`,
-            `hsl(3, 88%, 16%)`,
-            `hsl(4, 76%, 15%)`,
-            `hsl(330, 100%, 50%)`,
+            `hsl(231, 15%, 18%)`, //0
+            `hsl(231, 25%, 18%)`, //1
+            `hsl(231, 35%, 18%)`, //2
+            `hsl(231, 45%, 18%)`, //3
+            `hsl(231, 55%, 18%)`, //4
+            `hsl(290, 72%, 30%)`, //5
+            // intentionally get really ugly
+            `hsl(2, 90%, 38%)`, //6
+            `hsl(113, 12%, 4%)`, //7
+            `hsl(3, 88%, 16%)`, //8
+            `hsl(4, 76%, 15%)`, //9
+            `hsl(330, 100%, 50%)`, //10
         ],
 
         border: `hsl(206, 30%, 30%)`,
-        borderOfDepth0: `hsla(0, 0%, 100%, 0.25)`,
+        borderOfDepth0: `hsl(231, 15%, 18%)`,
 
         focusedBlock: "hsl(231, 15%, 7%)",
 
